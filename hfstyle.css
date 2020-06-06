@@ -1,0 +1,84 @@
+/* header start */
+
+.navbar .navbar-brand {
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+    color: black;
+    font-weight: bolder;
+}
+
+.navbar .navbar-brand img {
+    width: 70px;
+}
+
+.navbar .navbar-brand span {
+    font-size: larger;
+}
+
+.navbar {
+    background-color: #90CAF9 !important
+}
+
+.nav-link {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+
+/*header end */
+
+
+/* footer start */
+
+.footer {
+    width: 100%;
+    display: block;
+    overflow: hidden;
+    padding: 50px 0 0 0;
+}
+
+.inner-footer {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    background-color: black;
+    padding: 20px 0;
+}
+
+.inner-footer .logo {
+    height: 150px;
+    width: 150px;
+}
+
+.inner-footer .logo img {
+    height: 150px;
+}
+
+.inner-footer .toronto-info,
+.inner-footer .karachi-info {
+    height: 150px;
+    width: 150px;
+}
+
+.inner-footer .toronto-info h5,
+.inner-footer .karachi-info h5 {
+    color: white;
+    font-weight: bold;
+}
+
+.inner-footer .toronto-info p,
+.inner-footer .karachi-info p {
+    color: white;
+}
+
+.lower-footer {
+    font-weight: bold;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+
+/* footer end */

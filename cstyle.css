@@ -1,0 +1,66 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+
+.content {
+    margin: 0 200px;
+}
+
+.banner {
+    margin: 10px 0 10px 0;
+}
+
+.banner img {
+    max-width: 100%;
+}
+
+.contact {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.contact h3 {
+    text-transform: uppercase;
+    font-weight: bold;
+    text-align: center;
+    border-bottom: 2px dotted #90CAF9;
+}
+
+.methods {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.card1,
+.card2,
+.card3,
+.card4 {
+    box-shadow: 5px 5px gray;
+    padding: 20px 20px;
+    height: 200px;
+    width: 300px;
+    border: 2px solid black;
+    margin: 10px 0;
+}
+
+.card1 i,
+.card2 i,
+.card3 i,
+.card4 i {
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+
+.card4 .social-icons {
+    margin-top: 5px;
+}
+
+@media screen and (max-width: 600px) {
+    .content {
+        margin: 0 0;
+    }
+}
